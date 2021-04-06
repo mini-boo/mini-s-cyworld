@@ -1,0 +1,42 @@
+  
+  .photocolumn {
+    flex: 0.4;
+    flex-direction: column;
+  
+    max-width: 90%; 
+    display: block; 
+    margin: 20px auto;
+
+  }
+
+  .photocontainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+
+    position: absolute;
+    top: 50px;
+    bottom: 60px;
+    left: 250px;
+    right: 115px;
+
+    overflow: auto;
+  }
+
+  .photobox {
+      
+    max-width: 97%; 
+    display: block; 
+    margin: 20px auto;
+
+  }
+
+  .phototitle {
+    background-color:#93a9d1
+  }
